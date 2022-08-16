@@ -1,0 +1,133 @@
+html {
+    font-family: "Open Sans", sans-serif;
+    scroll-behavior: smooth;
+    height: 100%;
+    color: #323232;
+}
+
+body {
+    cursor: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+    margin: 0 auto;
+    max-width: 900px;
+    background-color: whitesmoke;
+}
+
+.dark-mode {
+    background-color: black;
+    color: whitesmoke;
+}
+
+#logo {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
+}
+
+.nav-item {
+    margin: 8px;
+    list-style: none;
+}
+
+li {
+    display: list-item;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #323232;
+}
+
+main {
+    display: block;
+}
+
+section {
+    padding: 16px 0;
+}
+
+.about-me-container {
+    display: flex;
+}
+
+.about-me-text-container {
+    margin-left: 16px;
+}
+
+div {
+    display: block;
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.portrait {
+    width: 300px;
+    height: auto;
+    border-radius: 12px;
+}
+
+details {
+    display: block;
+    cursor: pointer;
+}
+
+summary {
+    list-style-image: <svg id="right-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon line" width="48" height="48"><path id="primary" d="M3,12H21m-3,3,3-3L18,9" style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path></svg>;
+}
+
+.project-title h3 {
+    display: inline;
+    font-weight: normal;
+}
+
+#time-counter {
+    font-weight: bolder;
+}
+
+.project-image {
+    width: 50%;
+}
+
+#skills-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 8px;
+}
+
+.skill {
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    padding-right: 30px;
+}
+
+footer {
+    margin-top: auto;
+    margin-top: 70px;
+    padding: 12px 0;
+    text-align: center;
+}
+
+.heart {
+    color: red;
+}
